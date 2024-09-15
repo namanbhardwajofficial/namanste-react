@@ -1,0 +1,26 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is my notes of Namaste React",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namanbhardwajofficial/namanste-react.git"
+  },
+  "author": "Naman Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namanbhardwajofficial/namanste-react/issues"
+  },
+  "homepage": "https://github.com/namanbhardwajofficial/namanste-react#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
