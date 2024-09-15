@@ -1,7 +1,5 @@
 const root = document.getElementById("root");
 
-const newDiv = document.createElement("div");
-newDiv.setAttribute("id", "container");
-newDiv.innerText = "Hello World from JS!";
-
-root.appendChild(newDiv);
+const reactElement = React.createElement("h1", {}, "Hello World from React");
+const reactRoot = ReactDOM.createRoot(root);
+reactRoot.render(reactElement);
