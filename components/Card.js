@@ -1,5 +1,5 @@
+import { CDN_URL } from "./utils/constant";
 const CardComponent = ({ cardData }) => {
-  console.log(cardData.data);
   const {
     area,
     avgRating,
@@ -11,7 +11,7 @@ const CardComponent = ({ cardData }) => {
   return (
     <div className="card-container">
       <img
-        src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/${cloudinaryImageId}`}
+        src={CDN_URL + cloudinaryImageId}
         alt="Description of the image"
         className="card-image"
       />

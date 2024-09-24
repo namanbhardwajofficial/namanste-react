@@ -1,9 +1,11 @@
+import { HEADER_URL } from "./utils/constant";
+
 const HeaderComponent = () => {
   return (
     <div className="header">
       <div className="logo">
         <img
-          src="https://static.thearcweb.com/images/PROD/PROD-30ba90b6-0925-423a-9842-bc34b4469195.png"
+          src={HEADER_URL}
           alt="Swiggy Clone Image"
           className="header-logo"
         ></img>
