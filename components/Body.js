@@ -12,8 +12,9 @@ const BodyComponent = () => {
           SetResData(resData.filter((res) => res?.data?.avgRating > 4.0))
         }
       >
-        Filter Restatuant
+        Filter Restatuant with Rating
       </button>
+      <button onClick={() => SetResData(CardData)}>Reset Restatuant</button>
       <div className="card-row">
         {resData.map((cardData, index) => (
           <CardComponent key={index} cardData={cardData} />
